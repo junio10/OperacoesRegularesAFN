@@ -22,6 +22,8 @@ public class Automato {
         this.transicoesAutomato = transicoesAutomato;
     }
 
+   
+
     
     public void addEstado(Estado e){
         
