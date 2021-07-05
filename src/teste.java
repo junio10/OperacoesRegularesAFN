@@ -17,8 +17,8 @@ public class teste {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         //Onde o documento está, Passar para a classe ler xml, que vai retornar o automato
-        String documento = "C:\\Users\\junio\\automatom1.jff";
-        String documento2 ="C:\\Users\\junio\\automatom2.jff";
+        String documento = "C:\\Users\\junio\\EX5.jff";
+        String documento2 ="C:\\Users\\junio\\EX1.jff";
         int esc = 0;
         
         //aqui criei um novo estado e uma nova transicao para testar
