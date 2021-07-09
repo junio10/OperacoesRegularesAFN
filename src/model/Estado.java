@@ -1,4 +1,7 @@
+package model;
 
+
+import model.Transicao;
 import java.util.ArrayList;
 import java.util.List;
 

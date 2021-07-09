@@ -1,4 +1,10 @@
+package model;
 
+
+import model.Estado;
+import model.MudarAutomato;
+import model.Transicao;
+import model.Automato;
 import java.util.ArrayList;
 import java.util.List;
 

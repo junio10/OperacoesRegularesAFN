@@ -1,4 +1,7 @@
+package model;
 
+
+import model.Automato;
 import java.util.ArrayList;
 import java.util.List;
 

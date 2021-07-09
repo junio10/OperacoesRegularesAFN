@@ -1,4 +1,7 @@
+package model;
 
+
+import model.Automato;
 import java.io.File;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -26,7 +29,7 @@ import org.w3c.dom.Element;
  * @author junio
  */
 public class EscreverXml {
-    public void escreverXml(Automato a){
+    public void escreverXml(Automato a, String caminho){
         int eixox = 309, eixoy = 221;
         String auxEixox, auxEixoy; 
         
@@ -121,7 +124,7 @@ public class EscreverXml {
             
             DOMSource documentoFonte = new DOMSource(documentXML);
             
-            StreamResult documentoFinal = new StreamResult(new File("C:\\Users\\junio\\automatoNovo.xml"));
+            StreamResult documentoFinal = new StreamResult(new File(caminho+"\\automatoNovo.xml"));
             transformer.transform(documentoFonte, documentoFinal);
             
          
